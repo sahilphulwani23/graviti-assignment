@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:#deedf7;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.nav{
+  padding: .7rem 4rem;
+  background-color: white;
+}
+
+h3{
+  color: #1B31A8;
+  text-align: center;
+  margin: 4rem ;
+  font-size: 140%;
+
+}
+.form-input{
+  display: block;
+  width: 80%;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  border-style: groove;
+  border: solid 2px rgb(215, 215, 215);
+  font-weight: 600;
+}
+label{
+  display: block;
+  margin: 2rem 0; 
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.left-inner-div{
+  padding-left: 20%;
+}
+.remove-stop-button{
+  margin-top: 4px;
+  margin-left: 58%;
+}
+
+.add-stop-button{
+  margin-left: 25%;
+}
+.add-stop-button:focus{
+  border: none;
+}
+.calc-button{
+  border-radius: 2rem;
+  background-color:#1B31A8;
+  padding: 1rem 2rem;
+  border: none;
+  color:azure;
+  margin: 45% 0 0 10%;
+}
+.calc-button:hover{
+  background-color: #16278b;
+}
+
+.dist-box{
+  margin-top: 1.2rem;
+  margin-left: 18.5%;
+  border: solid 1px rgb(215, 215, 215);
+  border-radius: 0.7rem;
+  width: 70%;
+}
+.distance{
+  border-radius: 0.7rem 0.7rem 0 0;
+  background-color: #fff;
+  padding: 1.5rem;
+  font-size: 120%;
+  margin: 0;
+  font-weight: 600;
+  
+}
+.sentence{
+  background-color: #d1e5f3;
+  margin: 0;
+  padding: 1rem;
+}
+.dist-number{
+  color: rgb(0, 0, 195);
+  margin-left: 55%;
+  font-size: 130%;
+  font-weight: 700;
+}
+.map {
+  display: block;
+  width: 85%;
+  height: 40rem;
+  margin: 20px;
+
+} 
+
+@media screen and (max-width: 990px) {
+  .calc-button{
+    border-radius: 2rem;
+    background-color:#1B31A8;
+    padding: 1rem 2rem;
+    border: none;
+    color:azure;
+    margin: 0 0 0 38%;
+  }
+  .dist-number{
+    color: rgb(0, 0, 195);
+    margin-left: 17%;
+    font-size: 120%;
+    font-weight: 700;
+  }
+}
